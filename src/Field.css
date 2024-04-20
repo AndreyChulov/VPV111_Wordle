@@ -1,0 +1,14 @@
+.Field{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.Field table{
+    border-width: 5px;
+    border-color: black;
+    border-radius: 20px;
+    border-style: dotted;
+}
