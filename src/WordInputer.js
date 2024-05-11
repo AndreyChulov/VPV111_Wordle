@@ -22,6 +22,7 @@ function OnKeyDown(e) {
         } else {
             onWordEntered(word)
         }
+        e.target.value = ""
     }
 }
 
